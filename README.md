@@ -228,25 +228,6 @@ npm run dev
 - The default rosbridge address is hard-coded in `web_app/src/App.jsx` (`ws://192.168.100.129:9090`). Change it to your Pi's IP.
 - Firestore collections used: `accounts`, `locations`, `alerts`, `state`.
 
-<div align="center">
-  <table>
-    <tr>
-      <td align="center" width="50%">
-        <b>Caregiver telemetry hub</b><br><br>
-        <img src="assets/appimage.png" width="100%"/>
-        <p><small>Live position, navigation status, and arrival alerts.</small></p>
-      </td>
-      <td align="center" width="50%">
-        <b>Voice command panel</b><br><br>
-        <img src="assets/appimage2.png" width="100%"/>
-        <p><small>Hands-free commands such as "Go to Kitchen".</small></p>
-      </td>
-    </tr>
-  </table>
-  <b>Emergency event log</b><br><br>
-  <img src="assets/appimage3.png" width="60%"/>
-  <p><small>Tip-over and collision alerts, with a 3-second write throttle.</small></p>
-</div>
 
 ### 5. Save destinations
 
