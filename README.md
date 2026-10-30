@@ -1,9 +1,6 @@
 # ♿ ROS 2 Autonomous Smart Wheelchair
 
-<div align="center">
-  <img src="assets/carimage.jpg" alt="ROS 2 Autonomous Smart Wheelchair build" width="800"/>
-  <p><i>The assembled, custom-built autonomous wheelchair platform.</i></p>
-</div>
+
 
 An assistive-technology prototype that drives itself from room to room. It runs **ROS 2 Humble** on a **Raspberry Pi 4** with a **2D LiDAR**, navigates with **Nav2**, and detects falls and collisions with an IMU. A **React web dashboard** lets the rider send the chair to saved places with their voice, while caregivers track it remotely and receive emergency alerts.
 
